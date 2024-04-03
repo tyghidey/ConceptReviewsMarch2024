@@ -10,26 +10,16 @@ let alpha = [
   ["h", "i"]
 ];
 
-let allData = [nums, alpha];
+// TODO: Create another array that has both nums and alpha as elements, then print it
 
-console.log(allData);
+// TODO: Print just nums from allData
 
-// Print all nums from allData
-console.log(allData[0]);
+// TODO: Print 2
 
-// Print 2
-console.log(allData[0][0][1])
+// TODO: Print f
 
-// Print f
-console.log(allData[1][2][1]);
+// TODO: Print ["c", "d"]
 
-// Print ["c", "d"]
-console.log(allData[1][1]);
+// TODO: Add letter y with bracket notation after d and print allData
 
-// Add letter y with bracket notation after d
-allData[1][1][2] = "y";
-console.log(allData);
-
-// Add letter z with .push() after y
-allData[1][1].push("z");
-console.log(allData);
+// TODO: Add letter z with .push() after y and print allData

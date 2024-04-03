@@ -2,14 +2,12 @@ const input = require('readline-sync');
 
 console.log("Welcome to my program! Tell me about yourself.");
 
-let name = input.question("\nPlease enter your name: ");
-console.log(`Welcome, ${name}!`);
-let faveIceCream = input.question("\nWhat is your favorite flavor of ice cream? ");
-console.log(`Wow, ${name}, I love the ${faveIceCream} flavor too!`);
+// TODO: Ask for the user's name
 
+// TODO: Greet user by name
 
-console.log("\n*****************************")
-console.log("Ice Cream Synopsis");
-console.log(`Name: ${name}`);
-console.log(`Flavor: ${faveIceCream}`);
-console.log("*****************************")
+// TODO: Ask user for their favorite ice cream
+
+// TODO: Respond with both name and favorite flavor in the sentence
+
+// TODO: Print a final synopsis with both the name and flavor, formatted nicely

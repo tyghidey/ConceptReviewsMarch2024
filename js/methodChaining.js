@@ -1,19 +1,13 @@
 let string = "deab";
 
-// Create "ABCDEF" in very few lines of code
+// Example - Create "ABCDEF" in very few lines of code
 
-// Make string uppercase, create array from string
-let alphaArr = string.toUpperCase().split("");
-console.log(alphaArr);
+// TODO: Make string uppercase, create array from string
 
-// Add "C"
-alphaArr.splice(2, 0, "C");
+// TODO: Add "C"
 
-// Add "F"
-alphaArr.push("F");
+// TODO: Add "F"
 
-// Create string from mutated array
-console.log(alphaArr.join(""));
+// TODO: Create string from mutated array
 
-// Print "BE" using bracket notation
-console.log(alphaArr[1] + alphaArr[4]);
+// TODO: Print "BE" using bracket notation
