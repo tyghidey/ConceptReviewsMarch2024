@@ -27,9 +27,12 @@ let clientInfoNeeded = ["First Name: ", "Last Name: ", "Email Address: ", "Phone
 // Example 3 - Copying elements from one array to another
 
 let nationalParks = ["Yellowstone", "Gateway Arch", "Glacier", "Zion", "Shenandoah", "Everglades"];
+let nationalParks2 = ["Joshua Tree", "Grand Canyon", "Rocky Mountain", "Yosemite"];
 
-// TODO: Create a variable to hold the full names
+// TODO: Create a function that will take an array of partial names and return a new array with "National Park" added to the end of each name
 
-// TODO: Create a new string for each park with its full name and put it in the new array
+// TODO: For the first array of names, call your function and save the result in a new variable, then print the variable.
 
-// TODO: Print the new array
+// TODO: Print the resulting value of calling the function and passing in the second list of names
+
+// TODO: Print the original arrays to demonstrate they haven't changed.
